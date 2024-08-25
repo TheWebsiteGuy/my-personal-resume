@@ -3,6 +3,7 @@ import "@styles/base.css";
 import Navbar from "@components/Navbar.astro";
 import Footer from "@components/Footer.astro"
 import { ViewTransitions } from "astro:transitions";
+import bgImage from "@assets/images/superman.jpg"; 
 
 export interface Props {
   title: string;
@@ -22,7 +23,7 @@ const { title } = Astro.props;
   </head>
   <body class="font-mono">
     <div
-      class="bg-fixed bg-cover bg-center h-screen bg-[url('src/assets/images/bg.webp')]">
+      class="bg-fixed bg-cover bg-center h-screen bg-image" >
       <!-- Navbar section -->
       <div class="sticky z-50 top-0">
         <Navbar />

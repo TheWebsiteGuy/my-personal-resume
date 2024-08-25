@@ -2,3 +2,7 @@
     font-family: "arcade"; 
     src: url("./fonts/ka1.woff2"); 
 } 
+
+.bg-image {
+    background-image: url('/src/assets/images/bg.webp');
+  }
